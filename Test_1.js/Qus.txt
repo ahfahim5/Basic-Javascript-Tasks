@@ -1,0 +1,38 @@
+Javascript Question
+Time: 3 Hours
+1.What  is the  difference between TypeScript and JavaScript?
+
+2.Write a JavaScript function to calculate the sum of two numbers.
+
+3.Check if a Number is Odd or Even.(Based on input).
+
+4.Write a JavaScript function to check if a given string is a palindrome (reads the same forwards and backwards).
+
+5.Write a JavaScript program to calculate the factorial of a given number. 
+
+6.Count Vowels in the following  String "Hello World".
+
+7.Reverse the following string.
+    Hybritech
+
+8.Grade Student Based on Score
+             Topic: Variables, If-Else, Functions, Objects
+             Write a function gradeStudent(score) that returns a grade based on the following          criteria:       
+     Grade  A: 90 or above
+       Grade B: 80-89
+       Grade C: 70-79
+       Grade D: 60-69
+       Grade F: Below 60
+9. Store and Retrieve Student Information
+
+             Topic: Objects, Functions
+             Write a function createStudent(name, age, grade) that creates and returns an object with properties name, age, and grade. 
+Then write a function getStudentInfo(student) that accepts the student object and prints out the student's name, age, and grade.
+
+      10. Find out string and number from the following sentence 
+               "I love hybritech 2024" 
+
+
+
+
+

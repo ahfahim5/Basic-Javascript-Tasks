@@ -1,0 +1,5 @@
+JS/TS:
+1. JS is dynamically typed, while ts is strongly typed.
+2. Ts is more readable and maintainable than js.
+3. Ts is Backward compatible with js but in js Cannot run TypeScript files.
+4. In TS Stronger typing can help identify errors, but in Js require more debugging and testing.

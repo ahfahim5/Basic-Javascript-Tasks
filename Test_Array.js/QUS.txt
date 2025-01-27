@@ -1,0 +1,25 @@
+   
+1. Find the Maximum Value in an Array.
+    
+2. Sum of All Numbers in an Array
+    
+3. Write a function that removes duplicate values from an array and returns a new array with unique   values.
+    
+4. Find the Intersection of Two Arrays, write a function that returns a new array containing 	elements that are common to both arrays.
+    
+5. Write a function that checks if an array is a palindrome (i.e., it reads the same forward and 	backward).
+    
+7. Filter Even Number From an array value.
+    
+8. Merge two arrays into one.
+        Like let array1 = [1, 2, 3, 4,5];
+            let array2 = [4, 5, 6,7];
+    
+9. Count how many times an element appears in the following array let 
+	array = [1, 2, 2, 3, 3, 3, 4];
+    
+10. Write a JavaScript function that takes a number as a parameter and throws a custom 'Error' if 	the number is not an integer.
+    
+11. Write a JavaScript function that takes a string as a parameter and throws a custom 'Error' if 	the string is empty.
+    
+12. Write a JavaScript program that creates a class called 'Employee' with properties for name and salary. Include a method to calculate annual salary. Create a 	subclass called 'Manager' that 	inherits from the 'Employee' class and adds an additional property for department. Override 	the 	annual  salary calculation 	method to include bonuses for managers. Create two instances of the 'Manager' class and calculate their annual salary.

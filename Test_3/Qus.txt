@@ -1,0 +1,57 @@
+1. Write a JavaScript program to declare a variable using let and assign a value. Then, try reassigning the variable and observe the behavior. What happens if you use const instead?
+
+2. Create a function that accepts two numbers and returns their sum. Ensure that your function checks if the inputs are numbers and returns an error message otherwise.
+
+3. Define a variable of each primitive data type (number, string, boolean, null, undefined, symbol, and bigint) and log their types using typeof.
+
+4. Write a program to check if a given number is positive, negative, or zero using comparison and logical operators.
+
+5. Rewrite the following code using a ternary operator:
+                   let age = 20;
+                  If (age >= 18) 
+                       {
+                           console.log("You are an adult");
+                       } else
+                    { console.log("You are a minor"); 
+                    }
+
+               
+6. Write a JavaScript program that uses a for loop to calculate the factorial of a given number.
+
+       
+7. Implement a switch statement to print the name of the day of the week based on an input     number (1 for Monday, 2 for Tuesday, etc.).
+
+
+8. Given the array const numbers = [1, 2, 3, 4, 5], write a program to:
+      Add a new number to the end of the array.
+      Remove the first element.
+      Use map() to create a new array with each element doubled.
+      Use reduce() to find the sum of all elements.
+      
+9. Create an object student with properties name, age, and subjects (an array). Write a function to add a new subject to the subjects array.
+
+10.Use Object.keys() and Object.values() to iterate over the properties of the student object created above and print each key-value pair.
+
+11.Write a function that demonstrates a closure by creating a private counter. The function should have increment and decrement methods to modify the counter.
+12. Use destructuring assignment to extract values from the following object:
+      const user = { name: "John", age: 30, location: "New York" };
+13. Write a program that demonstrates the use of the spread operator to combine two arrays.
+
+14. Create a simple class Car with properties make, model, and year. Add a method getDetails() that returns a string combining these properties.
+
+15. Write a function that takes two numbers and divides them. Use try...catch to handle the case where the second number is zero and throw an appropriate error.
+
+16.Create a webpage with the following requirements:
+             Add two buttons: "Change Text" and "Reset".
+             Add a <div> element to display some initial text (e.g., "Hello, World!").
+            Write JavaScript to perform the following:
+        ◦ When the "Change Text" button is clicked, change the text inside the <div> to "Text Changed!".
+        ◦ When the "Reset" button is clicked, reset the text inside the <div> to its initial value.
+      
+17. Write a program using setTimeout() to log "Hello" after 1 second, "How are you?" after 2 seconds, and "Goodbye!" after 3 seconds.
+
+18. Use Promise.all() to execute three asynchronous tasks (e.g., fetching data from three APIs). Ensure that your program handles both success and failure cases.
+
+19. Implement a debounce function to delay the execution of a search input handler. The handler should only execute if the user stops typing for 300ms.
+
+20. Write a program to save a user's input from a form into localStorage and retrieve it when the page reloads.

@@ -1,14 +1,22 @@
-function debounce(func, timeout = 300){
-  let timer;
-  return (...args) => {
-    clearTimeout(timer);
-    timer = setTimeout(() => { func.apply(this, args); }, timeout);
+const button = document.getElementById('click');
+
+const clickCountElement = document.getElementById('click-count');
+
+let clickCount = 0; 
+
+function debounce(fn, delay) {
+  let timeout;
+  return function () {
+    clearTimeout(timeout);  
+    timeout = setTimeout(() => {
+      fn();
+    }, delay);
   };
 }
-function saveInput(){
-  document.getElementById(
-    "results"
-  ).innerText = `Results for: "${query}"`;
+
+function updateClickCount() {
+  clickCount++; 
+  clickCountElement.textContent = `Click count: ${clickCount}`; 
 }
 
-const processChange = debounce(() => saveInput());
+button.addEventListener("click", debounce(updateClickCount, 3000));
